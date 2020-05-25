@@ -1,0 +1,118 @@
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+.tableContainer {
+  overflow-x: auto;
+  width: 99%;
+  height: 90vh;
+
+  margin: auto;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  cursor: default;
+  font-size: .95em ;
+
+
+}
+
+thead {
+  font-weight: 600;
+  color: black;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border:  1px solid #bdbdbd;
+  text-align: center;  
+
+}
+
+th {
+  box-shadow: 0 3px 2px -1px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  background: #fff;
+
+}
+
+
+.icon {
+  font-size: 1.2em;
+  margin: 0 .5em;
+
+}
+
+tr:nth-child(odd):hover, tr:nth-child(even):hover{
+  background-color: #dadada;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+button {
+  background-color: #273c75;
+  border: 0;
+  border-radius: 8px;
+  width: 10em;
+  padding: .8em 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin: .8em .5em;
+
+}
+
+
+.filter-input {
+  padding: .8em;
+  display: flex;
+  width: 15em;
+  margin: auto 0;
+  border: none;
+  border: 1px solid #03A9F4;
+  border-radius: 5px;
+  
+  
+}
+
+
+#title {
+  word-wrap: normal;
+  min-width: 7em;
+  font-weight: 600;
+}
+
+.plf {
+  width: .2em !important;
+  height: .1em !important;
+}
+
+
+.PC {
+  /* background: red; */
+}
+
